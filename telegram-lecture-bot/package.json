@@ -1,0 +1,21 @@
+{
+  "name": "telegram-lecture-bot",
+  "version": "1.0.0",
+  "description": "Lecture registration bot for Jimma University",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "exceljs": "^4.4.0",
+    "json2csv": "^6.1.0",
+    "node-cron": "^3.0.2",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
